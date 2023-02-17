@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@1,200&family=Lobster&display=swap" rel="stylesheet">
+        <title>JavaScript Task 5</title>
+    </head>
+    <body>
+        <h1 class="heading">Convert Temperature</h1>
+        <p class="question">
+            Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.<br>
+            Formula : c/5 = (f-32)/9 <br>
+            where c = temperature in Celsius and f = temperature in Fahrenheit<br>
+            Expected Output :<br>
+            60°C is 140 °F<br>
+            45°F is 7.222222222222222°C
+        </p>
+        <div class="solution">
+            <label for="celsius">Enter Temprature in Celsius.</label><br>
+            <input type="num" name="number" class="num" id="celsius"><br>
+            <label for="fahrenheit">Enter Temprature in Fahrenheit.</label><br>
+            <input type="num" name="number" class="num" id="fahrenheit"><br>
+            <input type="submit" name="submit" id="submit">
+            <p id="display-output"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

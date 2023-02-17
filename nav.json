@@ -1,0 +1,32 @@
+{ "nav":[
+    {
+        "id": 1, 
+        "displayText": "Dispaly Date",
+        "class": ""
+    },
+    {
+        "id": 2, 
+        "displayText": "Spin & Win",
+        "class": ""
+    },
+    {
+        "id": 3, 
+        "displayText": "Difference By 13",
+        "class": ""
+    },
+    {
+        "id": 4, 
+        "displayText": "Area of Triangle",
+        "class": ""
+    },
+    {
+        "id": 5, 
+        "displayText": "Convert Temperature",
+        "class": ""
+    },
+    {
+        "id": 6, 
+        "displayText": "Get Current URL",
+        "class": ""
+    }
+]}
