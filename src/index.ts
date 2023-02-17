@@ -75,7 +75,7 @@ const navFun = (data: NavType[]): void => {
   controlNav();
 };
 
-const startFun = async () => {
+export const startFun = async () => {
   try {
     await getNavData();
     addActiveClass(navList, 0);
