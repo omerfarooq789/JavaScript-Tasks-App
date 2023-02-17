@@ -5,7 +5,7 @@
   "dependencies": {
     "json-server": "^0.17.1"
   },
-  "name": "javascript-tasks",
+  "name": "omerfarooq-javascript-tasks",
   "version": "1.0.0",
   "description": "App of JavaScript Tasks",
   "main": "lib/index.js",
